@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecipeCollection.com - Bangladeshi Recipes</title>
+  <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">RecipeCollection.com</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#recipes">Recipes</a></li>
+      <li><a href="#tips">Tips</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="hero">
+      <img src="Style/delicious-brazilian-food-savory-gastronomy-and-authentic-recipes-foodgraphy-generative-ai-free-photo.jpg" alt="Insert Bangladeshi dish image here">
+      <h1>Welcome to RecipeCollection.com</h1>
+      <p>Discover authentic Bangladeshi recipes to spice up your kitchen!</p>
+      <a href="#recipes" class="btn">Explore Recipes</a>
+    </div>
+  </section>
+
+  <!-- Recipes Section -->
+  <section id="recipes" class="section">
+    <h2>Our Bangladeshi Recipes</h2>
+    <div class="recipe-grid">
+      <!-- Recipe 1: Biryani -->
+      <div class="recipe-card">
+        <img src="style/Biriyani.jpg" alt="Insert Biryani image here">
+        <h3>Chicken Biryani</h3>
+        <h4>Ingredients</h4>
+        <ul>
+          <li>500g chicken, cut into pieces</li>
+          <li>2 cups basmati rice, soaked</li>
+          <li>2 onions, sliced</li>
+          <li>2 tbsp ghee</li>
+          <li>1 tsp cumin seeds</li>
+          <li>4 cloves garlic, minced</li>
+          <li>2-inch ginger, grated</li>
+          <li>2 tomatoes, chopped</li>
+          <li>1 cup yogurt</li>
+          <li>2 tsp biryani masala</li>
+          <li>Salt to taste</li>
+        </ul>
+        <h4>Steps</h4>
+        <button class="toggle-btn" onclick="toggleSteps('biryani-steps')">Show/Hide Steps</button>
+        <ol class="steps" id="biryani-steps">
+          <li>Marinate chicken with yogurt, biryani masala, and salt for 30 minutes.</li>
+          <li>Heat ghee, fry onions until golden, add cumin, garlic, and ginger.</li>
+          <li>Add tomatoes, cook until soft, then add chicken. Cook for 10 minutes.</li>
+          <li>Layer soaked rice over chicken, add 3 cups water, cover, and cook on low for 20 minutes.</li>
+          <li>Fluff rice and serve hot with raita.</li>
+        </ol>
+      </div>
+      <!-- Recipe 2: Bhuna Khichuri -->
+      <div class="recipe-card">
+        <img src="style/Bhuna khichuri-RECIPE.webp" alt="Insert Bhuna Khichuri image here">
+        <h3>Bhuna Khichuri</h3>
+        <h4>Ingredients</h4>
+        <ul>
+          <li>1 cup moong dal</li>
+          <li>1 cup basmati rice</li>
+          <li>1 onion, sliced</li>
+          <li>1 tsp turmeric</li>
+          <li>1 tsp cumin seeds</li>
+          <li>2 tbsp ghee</li>
+          <li>4 cups water</li>
+          <li>Salt to taste</li>
+        </ul>
+        <h4>Steps</h4>
+        <button class="toggle-btn" onclick="toggleSteps('khichuri-steps')">Show/Hide Steps</button>
+        <ol class="steps" id="khichuri-steps">
+          <li>Roast moong dal until golden, rinse with rice.</li>
+          <li>Heat ghee, add cumin seeds and onion, fry until brown.</li>
+          <li>Add turmeric, dal, rice, salt, and water.</li>
+          <li>Cook on medium heat for 20 minutes, stirring occasionally.</li>
+          <li>Serve with fried onions and pickle.</li>
+        </ol>
+      </div>
+      <!-- Recipe 3: Fuchka -->
+      <div class="recipe-card">
+        <img src="style/Fuchka.jpg" alt="Insert Fuchka image here">
+        <h3>Fuchka</h3>
+        <h4>Ingredients</h4>
+        <ul>
+          <li>20 puris (store-bought)</li>
+          <li>1 cup boiled chickpeas</li>
+          <li>1 potato, boiled and mashed</li>
+          <li>1 tsp roasted cumin powder</li>
+          <li>1 tsp chaat masala</li>
+          <li>2 cups tamarind water</li>
+          <li>Chopped coriander</li>
+        </ul>
+        <h4>Steps</h4>
+        <button class="toggle-btn" onclick="toggleSteps('fuchka-steps')">Show/Hide Steps</button>
+        <ol class="steps" id="fuchka-steps">
+          <li>Mix chickpeas, potato, cumin, chaat masala, and salt.</li>
+          <li>Poke a hole in each puri, fill with chickpea mixture.</li>
+          <li>Pour tamarind water into each puri.</li>
+          <li>Garnish with coriander and serve immediately.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips Section -->
+  <section id="tips" class="section">
+    <h2>Cooking Tips for Bangladeshi Cuisine</h2>
+    <ul class="tips-list">
+      <li><strong>Use fresh spices</strong>: Roast and grind spices like cumin and coriander for maximum flavor.</li>
+      <li><strong>Balance flavors</strong>: Bangladeshi dishes often combine spicy, tangy, and savory notes.</li>
+      <li><strong>Soak rice</strong>: Soaking basmati rice for 30 minutes ensures fluffy grains.</li>
+      <li><strong>Control oil</strong>: Use ghee or mustard oil sparingly for authentic taste without greasiness.</li>
+    </ul>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About RecipeCollection.com</h2>
+    <p>We’re passionate about sharing the rich flavors of Bangladeshi cuisine. From spicy biryanis to tangy fuchka, our recipes bring the taste of Bangladesh to your kitchen. Join us in celebrating this vibrant food culture!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 RecipeCollection.com. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function toggleSteps(id) {
+      const steps = document.getElementById(id);
+      if (steps.style.display === "none") {
+        steps.style.display = "block";
+      } else {
+        steps.style.display = "none";
+      }
+    }
+
+    // Hide steps by default
+    document.querySelectorAll(".steps").forEach(steps => {
+      steps.style.display = "none";
+    });
+  </script>
+</body>
+</html>
